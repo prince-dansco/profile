@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+}
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    padding: 50px 25px;
+    position: relative;
+}
+
+.top {
+    margin: 0 auto;
+}
+
+.top>img {
+    width: 90%;
+}
+
+.loot {
+    position: absolute;
+    top: 286px;
+    z-index: -1;
+    max-width: 350px;
+}
+
+.lip {
+    position: absolute;
+    top: -98px;
+    z-index: -1;
+    max-width: 350px;
+}
+
+.main-con {
+    /* display: none; */
+}
+
+.container {
+    background-color: hsl(0, 0%, 59%);
+}
+
+.container>img {
+    max-width: 350px;
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.content>img {
+    border-radius: 50%;
+    margin-bottom: 13px;
+    position: static;
+    z-index: 1;
+    border: 5px solid white;
+}
+
+.content {
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    max-width: 350px;
+
+}
+
+hr {
+    border-bottom: 1px solid hsl(227, 10%, 46%);
+    width: 100%;
+}
+
+.d-f {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+strong {
+    color: hsl(0, 0%, 59%);
+    gap: 5px;
+    font-size: 28px;
+}
+
+span {
+    display: block;
+    color: hsl(0, 0%, 59%);
+    font-size: 18px;
+}
+
+@media only screen and (min-width: 650px) {
+
+    .main-con {
+        margin: 55px 476px 23px;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .top>img {
+        width: 450px;
+    }
+    .lip{
+        position: absolute;
+         left: 500px;  
+    }
+
+    .loot {
+        position: absolute;
+        display: flex;
+        align-content: center;
+        bottom: 140px;
+        left: 500px;
+    }
+
+    /* .top {
+        background: url('./images/bg-pattern-top.svg') no-repeat;
+        position: absolute;
+        top: 0;
+        rotate: 120deg;
+        left: -310px;
+        width: 85%;
+        height: 70vh;
+        z-index: -1;
+
+    }
+
+    .bg-bottom {
+        background: url('./images/bg-pattern-top.svg') no-repeat;
+        position: absolute;
+        top: 45%;
+        right:-68px;
+        rotate: -35deg;
+        /* border: solid red; */
+    /* width: 70%;
+        height: 48vh;
+        z-index: -1;
+        overflow: hidden; */
+}
+
+*/
+}
